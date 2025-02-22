@@ -1,0 +1,502 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Zox News Theme Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		img { margin: 20px 0; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+
+		<h3 class="center alt">&ldquo;Zox News&rdquo; Documentation by &ldquo;MVP Themes&rdquo; v3.17.1</h3>
+
+		<hr>
+
+		<h1 class="center">&ldquo;Zox News&rdquo;</h1>
+
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: July 21, 2017<br>
+					By: MVP Themes<br>
+					Support: <a href="https://mvpthemes.zendesk.com">Support Center</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->
+
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to visit the MVP Themes Support Center <a href="https://mvpthemes.zendesk.com">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+
+		<hr>
+
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ul class="alpha">
+			<li><a href="#disclaimer">Disclaimer</a></li>
+			<li><a href="#installation">Installation/Homepage Setup</a></li>
+			<li><a href="#update">Updating the Theme</a></li>
+			<li><a href="#themeoptions">Theme Options</a></li>
+			<li><a href="#menus">Custom Menus</a></li>
+			<li><a href="#widgets">Widgets</a></li>
+			<li><a href="#images">Images</a></li>
+			<li><a href="#background">Background</a></li>
+			<li><a href="#post-options">Post Options</a></li>
+			<li><a href="#page-templates">Page Templates</a></li>
+			<li><a href="#reviewer">Reviewer Plugin</a></li>
+			<li><a href="#slideshows">Theia Post Slider</a></li>
+			<li><a href="#sidebars">Sticky Sidebars (Theia Sticky Sidebar)</a></li>
+			<li><a href="#authorinfo">Author Info</a></li>
+			<li><a href="#translation">Translation Files</a></li>
+			<li><a href="#woocommerce">WooCommerce</a></li>
+			<li><a href="#bbpress">bbPress</a></li>
+			<li><a href="#css">CSS Files</a></li>
+			<li><a href="#js">Javascript Files</a></li>
+			<li><a href="#support">Support</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ul>
+
+		<hr>
+
+		<h3 id="disclaimer"><strong>Disclaimer</strong> - <a href="#toc">top</a></h3>
+		<p>Although support is not required of ThemeForest authors, I do offer support for the theme and its core features and functionality. I cannot guarantee that this theme will function with all third-party components and plugins. Zox News Theme is presented as is.</p>
+
+		<hr>
+
+		<h3 id="installation"><strong>Installation/Homepage Setup</strong> - <a href="#toc">top</a></h3>
+
+		<ol>
+			<li>Make sure that you have the latest version of Wordpress installed.</li>
+			<li>You can upload Zox News to Wordpress in one of two different ways:
+				<ul>
+					<li>Extract the <strong>zox-news.zip</strong> and upload the extracted <strong>zox-news</strong> folder to the <strong>/wp-content/themes/</strong> directory on your FTP server.</li>
+					<li><strong>OR</strong> go to <strong>Appearance > Themes</strong> and click on the <strong>Add New</strong> link at the top. Then click <strong>Upload Theme</strong> and click <strong>Choose File</strong>, then select <strong>zox-news.zip</strong> and click <strong>Install Now</strong>.</li>
+				</ul>
+			</li>
+			<li>After you upload the theme, activate it by going to <strong>Appearance > Themes</strong> and place your mouse over <strong>Zox News</strong> and click the <strong>Activate</strong> button underneath.</li>
+		</ol>
+
+		<p>After installing the theme, you can do one of two things: 1) Import the demo data, or 2) follow the instructions to set up the theme with the existing posts/data you have on your site.</p>
+
+		<h4><strong>Importing the Demo Data</strong></h4>
+
+		<ol>
+			<li>When you activate the theme, you will see a notification at the top of your WordPress Dashboard prompting you to install plugins that are included with the theme. Click the <strong>Begin installing plugins</strong> link within the notification.</li>
+			<li>Click the check box next to the <strong>MVP Themes Social Buttons</strong> and <strong>One Click Demo Import</strong> plugins, as well as any of the other plugins you plan to use, then within the <strong>Bulk Actions</strong> dropdown menu, select <strong>Install</strong>, then click the <strong>Apply</strong> button. Your plugins should now be installed and activated.
+			<li>Go to <strong>Appearance > Import Demo Data</strong> and click the <strong>Import Demo Data</strong> button.</li>
+		</ol>
+
+		<p>NOTE: The XML data does not come with the images from the demo, which are not licensed to be included in the theme file.</p>
+
+		<h4><strong>Setting up the theme with your existing posts/data</strong></h4>
+
+		<ol>
+			<li>When you activate the theme, you will see a notification at the top of your WordPress Dashboard prompting you to install plugins that are included with the theme. Click the <strong>Begin installing plugins</strong> link within the notification.</li>
+			<li>Click the check box next to the <strong>MVP Themes Social Buttons</strong> as well as any of the other plugins you plan to use, then within the <strong>Bulk Actions</strong> dropdown menu, select <strong>Install</strong>, then click the <strong>Apply</strong> button. Your plugins should now be installed and activated.
+			<li>Go to <strong>Pages > Add New</strong>. Enter <strong>Home</strong> as the title and in the <strong>Page Attributes</strong> section, select <strong>Home</strong> from the <strong>Templates</strong> dropdown menu on the right. Click <strong>Publish</strong>.</li>
+			<li>Go to <strong>Settings > Reading</strong> and select the <strong>A static page</strong> radio button and in the <strong>Front Page:</strong> dropdown menu, select <strong>Home</strong>. Click <strong>Save Changes</strong>.</li>
+			<li>To set up the <strong>Featured Posts</strong> section of your homepage, go to <strong>Zox News Options > Homepage Settings</strong> and select a <strong>Featured Posts Layout</strong>, and assign a <strong>Featured Posts Tag Slug</strong> that is associated with the <strong>Tag</strong> you want to use for your <strong>Featured Posts</strong>. Posts with this Tag will be displayed in the <strong>Featured Posts</strong> at the top of the homepage. You can find the slug for the Tag you want to use by going to <strong>Posts > Tags</strong> and then find the Tag you want to use for the Featured Posts section and find the slug for that Tag in the <strong>Slug</strong> column. To find more information on how to find the Tag Slug, click <a href="https://en.support.wordpress.com/slugs/">here</a>.
+			<li>To set up the <strong>Widgets</strong> on your homepage, you can go to <strong>Appearance > Widgets</strong> and add any widgets to the <strong>Homepage Widget Area</strong>. You can view the widget layout from the demo in the <a href="#widgets">Widgets</a> section of this documentation as well as more information about how to utilize the other widgetized areas.</li>
+			<li>To set up your menus, please refer to the <a href="#menus">Custom Menus</a> section of this documentation.</li>
+		</ol>
+
+		<p>In order to utilize the various social media links & sharing buttons throughout the site, you will need to install the <strong>MVP Social Buttons</strong> plugin that comes with the theme. You can find the plugin (<strong>mvp-social-buttons.zip</strong>) in the /plugins folder of your original zip file you downloaded from Themeforest.</p>
+
+		<img src="assets/images/theme1.png" style="margin: 20px 0;" alt="Theme Installation" />
+
+		<hr>
+
+		<h3 id="update"><strong>Updating the Theme</strong> - <a href="#toc">top</a></h3>
+
+		<p>From time to time, a theme update will be released that either fixes a bug and/or adds new features to the theme. It is recommended that you install the <a href="https://envato.github.io/wp-envato-market/" target="_blank">Envato Market Plugin</a> so you can easily install theme updates directly from your WordPress Dashboard with one click. However, there are two other ways you can update the theme:
+
+		<ol>
+			<li>Remove the old version of the theme by going to <strong>Appearance > Themes</strong> and activating another theme (you may want to place your site in Maintenance mode via a plugin). Then, hover your mouse over the Zox News theme image and click <strong>Theme Details</strong>. Then click <strong>delete</strong> in the lower right corner of the window that appears. Then, follow the installation instructions above to install the new version of the theme.</li>
+			<li><strong>OR</strong> you can upload the new <strong>/zox-news</strong> folder (located in the <strong>zox-news.zip</strong> file) via FTP and overwrite the old files.</li>
+		</ol>
+
+		<p><strong style="color: #ef0000;">NOTE: Updating the theme will overwrite any changes you made to any of the core files (index.php, style.css, header.php, etc), however, you will not lose any changes you made to the Theme Options, menus, widgets, etc.</strong></p>
+
+		<p><strong style="color: #ef0000;">Also, make sure to go to your Theme Options and click "Save all changes" after each time you update the theme to make sure any new options are generated properly.</strong></p>
+
+		<hr>
+
+		<h3 id="themeoptions"><strong>Theme Options</strong> - <a href="#toc">top</a></h3>
+
+		<p>Zox News comes with custom Theme Options to allow you to set up many of the theme features without touching the code. To edit the Theme Options, go to <strong>Appearance > Zox News Options</strong>.</p>
+
+		<img src="assets/images/options.png" style="margin: 20px 0;" alt="Theme Options" />
+
+			<ol>
+				<li><strong>General</strong> - Here, you will be able to upload your custom logo to replace the default logo, upload a custom favicon, enter any custom CSS you need, as well as toggle the responsiveness of the theme, and the Infinite Scroll feature. <strong style="color: #ef0000;">NOTE: Please click "Save All Changes" in the General Settings section once before you begin in order to register the default theme settings.</strong>
+					<ul>
+						<li><strong>Site Skin</strong> - Select between the Standard skin, or an Entertainment skin, with more bold headlines, a white background to the nav bar, and a few other small changes.</li>
+						<li><strong>Navigation Layout</strong> - Select between a Large or Small navigation layout. The Large navigation will have two rows and a larger space for the logo and menu items.</li>
+						<li><strong>Logo</strong> - Upload a logo file that will appear in your header. The recommended maximum dimensions for this logo are 600px wide, but it can be any height.</li>
+						<li><strong>Logo in Navigation</strong> - Upload a logo file that will appear in your navigation. This logo file will be used if you are using the <strong>Logo in Navigation</strong> logo option, as well as in the flyout menu, on mobile devices, and within the smaller menu that scrolls as you browse the site. The recommended maximum dimensions for this logo are 200x30.</li>
+						<li><strong>Logo in Navigation Width</strong> - If you are utilizing the Google AMP feature, you will need to enter the width of your navigation logo file here. Default is 92.</li>
+						<li><strong>Logo in Footer</strong> - Upload a logo file that will appear in your footer. There are no maximum recommended dimensions for this logo size.</li>
+						<li><strong>Custom Favicon</strong> - Upload a 16px x 16px PNG or GIF file to serve as your favicon.</li>
+						<li><strong>Custom CSS</strong> - Here you can enter any custom CSS code for the theme, which will overwrite any other CSS code. You will not lose any of the custom CSS in this field when you upgrade the theme to a newer version.</li>
+						<li><strong>Toggle Responsiveness</strong> - Toggle this box if you would like to remove responsive feature of the site that alters the site based on the device it is being viewed on. By disabling this, visitors will see the desktop version of the site no matter what device they are viewing.</li>
+						<li><strong>Toggle Infinite Scroll</strong> - Toggle this box if you would like to remove the Infinite Scroll feature on the homepage and archive pages.</li>
+						<li><strong>Toggle Megamenus</strong> - Toggle on/off the Megamenu feature for Category menu items</li>
+						<li><strong>Enable RTL</strong> - Toggle on/off the RTL stylesheet.</li>
+					</ul>
+				</li>
+				<li><strong>Colors</strong> - Here, you can select which colors you would like to use for your site.
+					<ul>
+						<li><strong>Primary Color Skin</strong> - Select between a highlight and standard skin for the primary color. This will affect the color of the video/gallery icons and a few other color elements. If you are using a bright, highlight color like the default green that you see in the demo, choose highlight. If you are using a more standard color, choose standard.</li>
+						<li><strong>Primary Theme Color</strong> - Select or enter a hexidecimal code for the primary color of the site.</li>
+						<li><strong>Primary Theme Color</strong> - Select or enter a hexidecimal code for the secondary color of the site.</li>
+						<li><strong>Top Navigation Background Color</strong> - Select or enter a hexidecimal code for the background color of the top navigation bar.</li>
+						<li><strong>Top Navigation Icon Color</strong> - Select or enter a hexidecimal code for the hamburger menu and search icons in the top navigation.</li>
+						<li><strong>Top Navigation Icon Hover Color</strong> - Select or enter a hexidecimal code for the hover color of the hamburger menu and search icons in the top navigation.</li>
+						<li><strong>Top Navigation Skin</strong> - Select between a dark and light top navigation skin. This will affect the color of the social media buttons and fly-out menu text color.</li>
+						<li><strong>Bottom Navigation Background Color</strong> - Select or enter a hexidecimal code for the background color of the bottom navigation.</li>
+						<li><strong>Bottom Navigation Text/Icon Color</strong> - Select or enter a hexidecimal code for the text/icons in the bottom navigation.</li>
+						<li><strong>Bottom Navigation Text Hover Color</strong> - Select or enter a hexidecimal code for the hover/underline of the text/icons in the bottom navigation.</li>
+						<li><strong>Primary Link Color</strong> - Select or enter a hexidecimal code for the underline and highlight color for posts and pages.</li>
+						<li><strong>Unstyled Link Color</strong> - Select or enter a hexidecimal code for unstyled default link color for links throughout the site.</li>
+					</ul>
+				</li>
+				<li><strong>Fonts</strong> - Here, you can select from over 700 Google Fonts to set the various fonts for your site. You can browse the list of Google Fonts <a href="https://www.google.com/fonts" target="_blank">here</a>. You can also enter standard web fonts like Arial and Georgia as well.
+					<ul>
+						<li><strong>General Content Font</strong> - Enter the font name for the general font for the content on all pages.</li>
+						<li><strong>Paragraph Font</strong> - Enter the font name for the paragraph font for all pages.</li>
+						<li><strong>Fly-Out Menu/Top Navigation Font</strong> - Enter the font name for the fly-out and bottom navigation menus.</li>
+						<li><strong>Featured Posts/Article Headline Font</strong> - Enter the font name the font for the headlines in the Featured Posts section and other headlines throughout the site.</li>
+						<li><strong>Article Title Font</strong> - Enter the font name the font for the title of posts on article pages.</li>
+						<li><strong>General Heading Font</strong> - Enter the font name the font for the general headings that appear at the top of the different sections around the site.</li>
+					</ul>
+				</li>
+				<li><strong>Homepage Settings</strong> - This is where you will be able to configure the various homepage settings, including the Featured Posts section.
+					<ul>
+						<li><strong>Show Featured Posts?</strong> - Uncheck this box if you would like to remove the Featured Posts section from the homepage.</li>
+						<li><strong>Featured Posts Layout</strong> - Select between 4 different layouts for your Featured Posts section on the homepage.</li>
+						<li><strong>Featured Posts Tag Slug</strong> - Enter the Tag Slug of the Tag you want associated with the Featured Posts section. Posts with this Tag will be displayed in the Featured Slider at the top of the homepage. You can find the slug for the Tag you want to use by going to <strong>Posts > Tags</strong> and then find the Tag you want to use for the Featured Posts section and find the slug for that Tag in the <strong>Slug</strong> column. To find more information on how to find the Tag Slug, click <a href="https://en.support.wordpress.com/slugs/">here</a>.</li>
+						<li><strong>Featured Posts Ad Code</strong> - If you are using Featured Posts #1, you can insert a 300x250 ad that will appear at the top of the right column. Enter your ad code (Eg. Google Adsense) for that area.</li>
+						<li><strong>Homepage Body Layout</strong> - Select your layout for the body of the homepage that will appear in the main content area of the homepage.</li>
+						<li><strong>Homepage Blog Layout</strong> - Select between <strong>Row</strong> and <strong>Columnn</strong> for the layout of the blog section of the homepage.</li>
+						<li><strong>Number of Posts Per Page</strong> - Set the number of posts per page that you want displayed on the Homepage Blog and the Latest News Template.</li>
+					</ul>
+				</li>
+				<li><strong>Trending Posts Settings</strong> - Here you can change the settings for the Trending Posts sections that appear within the Featured Posts section as well as the Trending section at the bottom of posts.
+					<ul>
+						<li><strong>Trending Posts Heading</strong> - Enter the heading of the Trending Posts section that will appear in the Featured Posts sections that utilize the Trending Posts feature.</li>
+						<li><strong>Trending Posts Days</strong> - Number of days to use for Trending Posts. Only posts published within this length of time will be displayed in the Trending Posts section. For example, if you set the number to 30, only posts that were published in the last 30 days will be used for the Trending Posts sections.</li>
+					</ul>
+				</li>
+				<li><strong>Article Settings</strong> - Here you can toggle the display of featured images, social sharing buttons, author info, and the previous/next story section on all posts.
+					<ul>
+						<li><strong>Default Post Template</strong> - Select between 8 different default Post Template layout for your articles. This is the universal setting and will be used as the default for new posts as well as any posts that do not have a Post Template assigned in the post individually.</li>
+						<li><strong>Show Featured Image In Posts?</strong> - Uncheck this box if you would like to remove the featured image from automatically displaying in all posts.</li>
+						<li><strong>Show Social Sharing Buttons?</strong> - Uncheck this box if you would like to remove the social sharing buttons from all posts.</li>
+						<li><strong>Show Post Info?</strong> - Uncheck this box if you would like to remove the author/post info from the top of posts.</li>
+						<li><strong>Show Author Box?</strong> - Uncheck this box if you would like to remove the author box from the bottom of your posts.</li>
+						<li><strong>Show Related Posts?</strong> - Uncheck this box if you would like to remove the Related Posts from the bottom of your posts.</li>
+						<li><strong>Number of Related Posts</strong> - Set the number of posts that you want displayed in the Related Posts section on your posts.</li>
+						<li><strong>Show Teaser Posts?</strong> - Uncheck this box if you would like to remove the More Posts from the bottom of the posts.</li>
+						<li><strong>Number of Teaser Posts</strong> - Set the number of posts that you want displayed in the More Posts section on your posts.</li>
+						<li><strong>Show Trending Posts?</strong> - Uncheck this box if you would like to remove the Trending Posts from the bottom of your posts.</li>
+						<li><strong>Show Previous/Next Post Links</strong> - Uncheck this box if you would like to remove the links to the previous/next posts that appear in the left/right margins of larger resolution screens.</li>
+						<li><strong>Toggle Scrolling Video</strong> - Uncheck this box if you would like to remove the scrolling fixed video function on video posts.</li>
+						<li><strong>Disqus Forum Shortname</strong> - If you want to use Disqus as your commenting system, you do not need to install the Disqus plugin. All you need to do is enter your Disqus Forum Shortname in order to activate Disqus on your site. This is the unique identifier for your website in Disqus (i.e. <strong>yourforumshortname</strong>.disqus.com). Only enter the Shortname and not the full URL.</li>
+						<li><strong>Article Ad Code</strong> - Enter your ad code (Eg. Google Adsense) for the ad area below the article. The maximum width of this area is 740px, but it can be any height.</li>
+						<li><strong>Article Ad Code</strong> - Enter your ad code (Eg. Google Adsense or Taboola) for the ad area below the article. The maximum width of this area is 1083px, but it can be any height.</li>
+					</ul>
+				</li>
+				<li><strong>Auto Load Posts Settings</strong> - Jawn comes with a custom Auto Load Posts function that loads the next post as the user scrolls to the bottom of the current post. You also have the option of displaying the current and next posts in the left column that will update as you scroll to the next posts. You will need to make sure you have installed the <strong>Jawn Auto Load Posts</strong> plugin that comes with the theme.
+					<ul>
+						<li><strong>Toggle Auto Load Posts</strong> - Toggle on/off Auto Load Posts feature.</li>
+						<li><strong>Auto Load Posts Sidebar Layout</strong> - Select between displaying the latest posts (within the same category as the current post) in the left column, displaying a widgetized sidebar on the right, or not displaying any sidebar at all.</li>
+						<li><strong>Number of Auto Load Posts</strong> - Set the maximum number of Auto Load Posts. This number of posts will be loaded in the sidebar when the page loads.</li>
+		  				<li><strong>Auto Load Posts Sidebar Ad Code</strong> - If you are using the <strong>Latest</strong> option for the Auto Load Posts Sidebar Layout, you can enter your ad code (Eg. Google Adsense) for the ad area in the Auto Load Posts sidebar. The maximum width of this area is 330px, but it can be any height. The area was designed to ideally display 300x250 or 300x500 ads.</li>
+					</ul>
+				</li>
+				<li><strong>Google AMP Settings</strong> - Here, you can configure your Google AMP Settings.
+					<ul>
+						<li><strong>Enable Google AMP on mobile devices</strong> - Check this box if you would like to enable the Google AMP compatibility with the theme. You will also need to install and activate the AMP plugin that comes with the theme.</li>
+						<li><strong>Facebook App ID</strong> - In order to utilize the Google AMP Facebook share button, you must provide a valid Facebook App ID.</li>
+					</ul>
+				</li>
+				<li><strong>Category Pages</strong> - Here, you can configure the layout of your category pages.
+					<ul>
+						<li><strong>Show Featured Posts?</strong> - Uncheck this box if you would like to remove the Featured Posts section from the top of your category pages.</li>
+						<li><strong>Featured Posts Layout</strong> - Select the layout of your Featured Posts section on the category pages.</li>
+						<li><strong>Archive Blog Layout</strong> - Select the layout for the blog section of your category and archive pages.</li>
+					</ul>
+				</li>
+				<li><strong>Social Media</strong> - Here you can enter URLs for several popular social media sites to activate links to each page that will appear in a floating box on the right of the browser window. Simply enter the URL and the link will appear automatically!</li>
+				<li><strong>Ad Management</strong> - Enter ad code for the optional leaderboard banner areas and/or a wallpaper ad.
+					<ul>
+						<li><strong>Toggle Parallax Leaderboard</strong> - Uncheck this box if you would like to remove the parallax leaderboard feature and display a static leaderboard ad.</li>
+						<li><strong>Header Leaderboard Ad Code</strong> - Enter your ad code for the leaderboard ad area that will appear at the top of the site. You can place any size ad in this section.</li>
+						<li><strong>Wallpaper Ad Image URL</strong> - Enter the URL for the wallpaper image (i.e. http://www.xyzdomain.com/xyz-wallpaper.jpg). Please do not insert the actual ad code for the wallpaper ad, just the image URL. The recommended width of the wallpaper ad is a minimum of 1400px. The recommended height is a minimum of 600px. <strong>NOTE: Due to the nature of wallpaper ads, the content of the site will sit on top of the ad and cover up the middle 1200px of the ad. The only visible area will the the left and right margins of the image which is why the ad should be wider than 1200px.</strong></li>
+						<li><strong>Wallpaper Ad Click-Through URL</strong> - Enter the URL that users will be taken to if they click on the Wallpaper Ad.</li>
+					</ul>
+				</li>
+				<li><strong>Footer Options</strong> - Enter your information for the Footer Info Box.
+					<ul>
+						<li><strong>Copyright Text</strong> - Here you can enter any text you want (eg. copyright text).</li>
+					</ul>
+				</li>
+			</ol>
+
+		<hr>
+
+		<h3 id="menus"><strong>Custom Menus</strong> - <a href="#toc">top</a></h3>
+
+		<p>Zox News supports three custom menu sections: a <strong>Main Menu</strong> for the top navigation bar that will only be visible on desktop devices, a <strong>Fly-Out Menu</strong> that will slide out from the right and will be used on all devices, and a <strong>Footer Menu</strong> that will appear at the very bottom of your site.</p>
+
+		<p>To set up the menus, go to <strong>Appearance > Menus</strong>. Here, you can create a new menu by clicking the <strong>create a new menu</strong> link, give the menu a name, and click <strong>Save Menu</strong> button. You will then see a <strong>Manage Locations</strong> tab appear at the top of the screen. Click the <strong>Manage Locations</strong> tab and then select your newly created menu from the dropdown list of the menu location you would like to set up and click <strong>Save Changes</strong>. You are now able to create a custom link, page or category and add it to your new menu by clicking the <strong>Add to Menu</strong> button.</p>
+
+		<p>If you would like to add a "Home" button, you can do so by adding a "Custom Links" menu item. Enter the URL of your site as the URL and "Home" as the Link Text.</p>
+
+		<p>For more information on how to use the Wordpress custom menu feature, <a href="http://codex.wordpress.org/Appearance_Menus_Screen" target="_blank">click here</a>.</p>
+
+		<img src="assets/images/menus.png" style="margin: 20px 0;" alt="Menus" />
+		<hr>
+
+		<h3 id="widgets"><strong>Widgets</strong> - <a href="#toc">top</a></h3>
+
+		<p>Zox News comes with 7 custom widgets for use in 5 different widget areas: Homepage Widget Area, Homepage Sidebar Widget Area, Default Sidebar Widget Area, Post/Page Sidebar Widget Area, and the WooCommerce Sidebar Widget area if you are using the WooCommerce plugin. To activate the widgets, go to <strong>Appearance > Widgets</strong> and click and drag a widget from the <strong>Available Widgets</strong> section and drop it into any of the 8 different custom widget areas</strong>.</p>
+
+		<p><strong>Widget Areas:</strong></p>
+
+			<ul>
+				<li><strong>Homepage Widget Area</strong> - This is where you can place your widgets that will appear in the main content area of the homepage.</li>
+				<li><strong>Homepage Sidebar Widget Area</strong> - This is where you can place your widgets that will appear in the sidebar of your homepage.</li>
+				<li><strong>Default Sidebar Widget Area</strong> - This is where you can place your widgets that will appear in the sidebar of any page on your site other than the homepage, a post/page, or a Woocommerce page.</li>
+				<li><strong>Post/Page Sidebar Widget Area</strong> - This is where you can place widgets that will appear in your Posts/Pages.</li>
+				<li><strong>WooCommerce Sidebar Widget Area</strong> - If you are using the WooCommerce plugin, this is where you can place the custom WooCommerce widgets that will appear in the sidebar of your WooCommerce pages.</li>
+			</ul>
+
+		<p><strong>Available Widgets:</strong></p>
+
+			<ul>
+				<li><strong>Zox News: Ad Widget</strong> - A widget that displays any sized ad. If you want to place a 300x250 ad in your sidebar, simply place it in one of the sidebar widget areas and then enter your ad code. You can also use this ad to display a leaderboard ad in the Homepage Widget Area.</li>
+				<li><strong>Zox News: Facebook Widget</strong> - A widget that displays a Facebook Like Box. You can customize the title header, your Facebook page URL, and a few other options to help customize the Like Box to your liking.</li>
+				<li><strong>Zox News: Flexible Posts Widget</strong> - A widget that displays any number of posts within any widget area.</li>
+				<li><strong>Zox News: Home Dark Widget</strong> - A widget that displays a list of either gallery or video posts with a dark background. This widget is designed specifically for the Homepage Widget Area.</li>
+				<li><strong>Zox News: Home Featured 1 Widget</strong> - A widget that allows you to either display 2 large posts in a row, 4 smaller posts in a row, or both at the same time. This widget is designed specifically for the Homepage Widget Area.</li>
+				<li><strong>Zox News: Home Featured 2 Widget</strong> - A widget that displays one large featured post, two smaller featured posts, and a sidebar with more posts and an optional 300x250 ad. This widget is designed specifically for the Homepage Widget Area.</li>
+				<li><strong>Zox News: Side Tabber Widget Widget</strong> - A widget that displays your latest posts, popular posts, and video posts in a tabber widget. This widget is designed specifically for the Sidebar Widget Areas.</li>
+			</ul>
+
+		<img src="assets/images/widgets.png" style="margin: 20px 0;" alt="Widgets" />
+
+		<hr>
+
+		<h3 id="images"><strong>Images</strong> - <a href="#toc">top</a></h3>
+
+		<p>Zox News supports retina-ready images. To utilize this feature, follow these instructions:
+
+		<ol>
+			<li>Create a second image that is twice the size of your existing image. For example, if your logo is 200x30, your retina image would need to be 400x60.
+			<li>Add <strong>@2x</strong> to the end of the name of the retina image. For example, if your logo is called logo.png, name your retina version logo@2x.png.
+			<li>Upload the retina image in the same directory as your non-retina image. For example, if your logo is located in <strong>/wp-content/themes/zox-news/images/</strong>, you must upload the retina image in this directory.
+			<li>That's it!</strong>
+
+		</ol>
+
+		<p>Zox News utilizes Wordpress' built-in <strong>Featured Image</strong> feature to handle image management. <span style="color: #f00; font-weight: bold;">The recommended size for images to show properly within posts and in the Featured Posts area on the homapage and category pages is 1000x600px. If you plan on using a different image size, it is recommended that you use image dimensions that are proportional to the 1000x600 recommended dimensions (i.e. 500x300 or 660x400).</p>
+
+		<p>To set the featured image for a post, go to <strong>Posts > Add New</strong> (or edit an existing post) and click the <strong>Upload/Insert</strong> icon above the main text box. From here, choose a file and upload it. Once it is uploaded, click <strong>Use as featured image</strong> located near the bottom of the <strong>Add Media</strong> window. Then click <strong>Save all changes</strong>, close the <strong>Add Media</strong> window and you're good to go! Zox News will take care of the rest in generating the smaller thumbnails that show up in the various places around the site.</p>
+
+		<hr>
+
+		<h3 id="background"><strong>Background</strong> - <a href="#toc">top</a></h3>
+
+		<p>Zox News utilizes Wordpress' built-in <strong>Custom Backgrounds</strong> feature to set up your custom background color and/or image. For more information on how to set up your custom background, click <a href="http://en.support.wordpress.com/themes/custom-backgrounds/">here</a>.</p>
+
+		<hr>
+
+		<h3 id="post-options"><strong>Post Options</strong> - <a href="#toc">top</a></h3>
+
+		<p>Zox News gives you a variety of custom options for your posts, inlcuding a custom Image Gallery, a Featured Headline feature, and the ability to set a full-width posts.</p>
+
+		<ul>
+			<li><strong>Post Formats</strong> - Zox News comes utilizes WordPress' built in Post Formats feature where you can select the type of post you are creating. For example, if you have a video in the post, you should go to the <strong>Format</strong> box and select the <strong>Video</strong> radio button, which will activate the video icon overlay on posts throughout the site that will show visitors that there is a video in the post.</li>
+			<li><strong>Video/Audio Posts</strong> - Zox News allows you to replace the default Featured Image in posts with an embedded video or audio clip. To utilize this feature, go to <strong>Posts > Add New</strong> (or edit an existing post) and enter your embed code (HTML or Javascript) in the box titled <strong>Video/Audio Embed</strong>.</li>
+			<li><strong>Featured Headline</strong> - Zox News allows you to enter a separate, smaller headline for use in the Featured Posts area on the homepage, in certain widgets, and in on category pages. To utilize this feature, go to <strong>Posts > Add New</strong> (or edit an existing post) and enter your featured headline in the box titled <strong>Featured Headline</strong>.</li>
+			<li><strong>Featured Image Excerpt</strong> - You can add a custom excerpt (that will appear below the main title on your posts) within the Post Edit screen. At the top right corner, click "Screen Options" and make sure "Excerpt" is checked and then scroll down to the Excerpt box and enter your own custom excerpt that will take the place of the default text. This text will also appear around the site where excerpts are used (i.e. in widgets and archive pages).</li>
+			<li><strong>Featured Image Caption</strong> - Zox News allows you to enter a caption (which can also be used as a photo credit) for your Featured Images within posts. This will be displayed just below the featured image. To utilize this feature, go to <strong>Posts > Add New</strong> (or edit an existing post) and enter your photo credit in the box titled <strong>Photo Credit</strong>. You can also use HTML in this space.</li>
+			<li><strong>Post Template</strong> - Select between 8 different Post Templates. To utilize this feature, go to <strong>Posts > Add New</strong> (or edit an existing post) and select a layout from the dropdown box in the <strong>Post Template</strong> section on the right sidebar.</li>
+			<li><strong>Show/Hide Featured Image</strong> - Zox News allows you to remove the featured image from individual posts. To utilize this feature, go to <strong>Posts > Add New</strong> (or edit an existing post) and select "Hide" from the dropdown box in the <strong>Featured Image Show/Hide</strong> section on the right sidebar.</li>
+			<li><strong>Custom Post Gallery</strong> - Zox News allows you to display a custom rotating image gallery in your posts. To utilize this feature, go to <strong>Posts > Add New</strong> (or edit an existing post) and select "Show" from the dropdown box in the <strong>Post Gallery Show/Hide</strong> section on the right sidebar. To add images to the gallery, by clicking the <strong>Add Media</strong> button above the main text box, then click the <strong>Upload Files</strong> tab and upload the images you want to include in the Image Gallery. You do not need to insert the images into the post, so once you upload the image(s), they will appear in the gallery for that post. So, once the image(s) are uploaded, you can close the <strong>Insert Media</strong> screen by clicking on the <strong>X</strong> in the upper right corner, then you can save/publish your post and the Image Gallery will appear at the bottom of your post.</li>
+		</ul>
+
+		<hr>
+
+		<h3 id="page-templates"><strong>Page Templates</strong> - <a href="#toc">top</a></h3>
+
+		<p>Zox News comes with 4 custom page templates: Home, Authors List, Latest News, Full-Width. In order to create a custom page template
+
+		<ol>
+			<li>Go to <strong>Pages > Add New</strong>. Enter a title in the <strong>Enter a title here</strong> box.
+			<li>In the<strong>Page Attributes</strong> section, select the page template you want to use from the <strong>Templates</strong> dropdown menu on the right.</li>
+			<li>Click <strong>Publish</strong> and that's it!</li>
+		</ol>
+
+		<hr>
+
+		<h3 id="reviewer"><strong>Reviewer Plugin</strong> - <a href="#toc">top</a></h3>
+
+		<p>Zox News comes with the Reviewer WordPress Plugin that allows you to insert reviews and comparison tables inside your WordPress blog posts and pages in a quick and easy way. Here are the instructions to install and set up Reviewer Plugin for Zox News</p>
+
+		<ol>
+			<li>Go to <strong>Plugins > Add New</strong> then click the <strong>Upload</strong> link at the top.</li>
+			<li>Click <strong>Choose File</strong> and select the <strong>reviewer.zip</strong> file (located in the /plugins folder of your original zip file you downloaded from Themeforest), then click <strong>Install Now</strong>.</li>
+			<li>After the plugin installs, click the <strong>Activate Plugin</strong> link.</li>
+			<li>Once you activate the plugin you will be prompted to verify the license. You will need to enter <strong>MVPThemes</strong> (case sensitive) for the Username and <strong>8531e88e-5fcb-4a59-a6a3-72bc6c11b74f</strong> for the Purchase Code.</li>
+		</ol>
+
+		<p>If you run into any technical issues with the plugin, please submit a ticket at the <a href="https://mvpthemes.zendesk.com" target="_blank">Support Center</a> and I will get in touch with the plugin developer. But, for help in setting up the plugin and any general questions about the plugin, please refer to the plugin's documentation, by clicking <a href="assets/reviewer/Reviewer-Plugin-v-3-13-0.pdf" target="_blank">here</a></p>
+
+		<hr>
+
+		<h3 id="slideshows"><strong>Theia Post Slider</strong> - <a href="#toc">top</a></h3>
+
+		<p>Zox News utilizes Theia Post Slider to give you dynamic slideshows in your posts and pages. Here are the instructions to install and set up Theia Post Slider for Zox News:</p>
+
+		<ol>
+			<li>Go to <strong>Plugins > Add New</strong> then click the <strong>Upload</strong> link at the top.</li>
+			<li>Click <strong>Choose File</strong> and select the <strong>theia-post-slider.zip</strong> file (located in the /plugins folder of your original zip file you downloaded from Themeforest), then click <strong>Install Now</strong>.</li>
+			<li>After the plugin installs, click the <strong>Activate Plugin</strong> link.</li>
+			<li>To activate the plugin, go to <strong>Settings > Theia Post Slider</strong> and enter <strong>sk_>[FTGcWU^o}E+[x:ZfOgLGTk>#71h</strong> as the Purchase Code, then click <strong>Save</strong>.</li>
+		</ol>
+
+		Theia Post Slider uses Wordpress' built-in "Page Break" feature to split up each slide in the slideshow. Simply click the "insert page break" shortcode button or manually insert &lt;!--nextpage--&gt; to insert a page break, which will split your post into different pages/slides.</p>
+		<p>To customize Theia Post Slider to your liking, you can edit the slider settings by going to <strong>Settings > Theia Post Slider</strong>. <a href="assets/theia-post-slider/index.html">Click here</a> for the full documentation for Theia Post Slider.</p>
+
+		<hr>
+
+		<h3 id="sidebars"><strong>Sticky Sidebars (Theia Sticky Sidebar)</strong> - <a href="#toc">top</a></h3>
+
+		<p>Zox News utilizes Theia Sticky sidebar to allow sidebar content to stay stay visible within each section as you scroll down the page. Here are the instructions to install and set up Theia Sticky Sidebar for Zox News:</p>
+
+		<ol>
+			<li>Go to <strong>Plugins > Add New</strong> then click the <strong>Upload</strong> link at the top.</li>
+			<li>Click <strong>Choose File</strong> and select the <strong>theia-sticky-sidebar.zip</strong> file (located in the /plugins folder of your original zip file you downloaded from Themeforest), then click <strong>Install Now</strong>.</li>
+			<li>After the plugin installs, click the <strong>Activate Plugin</strong> link.</li>
+		</ol>
+
+		<p>To customize Theia Sticky Sidebar to your liking, you can edit the slider settings by going to <strong>Settings > Theia Sticky Sidebar</strong>. <a href="assets/theia-sticky-sidebar/index.html">Click here</a> for the full documentation for Theia Sticky Sidebar.</p>
+
+		<p>Once you are in the Theia Sticky Sidebar Settings (<strong>Settings > Theia Sticky Sidebar</strong>), you will need to go to the <strong>General</strong> tab, enter a name for your sidebar, then enter the following into the <strong>Sidebar CSS Selector</strong> box: <strong>#mvp-side-wrap,.mvp-feat1-right-wrap,.mvp-post-soc-wrap,.mvp-flex-side-wrap,.mvp-alp-side</strong>. Click <strong>Save Changes</strong>.</p>
+
+		<p>Then, in the <strong>Sidebar additional top margin (px)</strong> box, you will need to enter a value of <strong>120</strong>. In the <strong>Sidebar additional bottom margin (px)</strong> box, you will need to enter a value of <strong>20</strong>. In the <strong>Minimum width (px)</strong> box, you will need to enter a value of <strong>1004</strong>. Click <strong>Save Changes</strong>. That's it! Your sidebars should now be sticky throughout your site!</p>
+
+		<hr>
+
+		<h3 id="authorinfo"><strong>Author Info</strong> - <a href="#toc">top</a></h3>
+
+		<p>Zox News allows you to display information about the author on each post. You can enter/edit this information by going to <strong>Users > All Users</strong> and editing any of your existing users.</p>
+		<ul>
+			<li><strong>Author Description</strong> - You can enter an author description via the author's user profile in the <strong>Biographical Info</strong> section. This description will show up on the author's individual author page as well as the author list page.</li>
+			<li><strong>Author Avatar</strong> - Zox News utilizes Gravatar to display the author's avatar in the author info below each post. Please sign up at <a href="http://www.gravatar.com" target="_blank">Gravatar.com</a> with the email address you are using with the author on your site. Once you have associated an avatar with this email, this avatar will appear in the author info as well as in the comments section of the site.</li>
+			<li><strong>Author Social Profiles</strong> - To enter social profile for each author, you will need to install the <strong>MVP Social Fields</strong> plugin that comes with the theme. You can find the plugin (<strong>mvp-social-buttons.zip</strong>) in the /plugins folder of your original zip file you downloaded from Themeforest. Once you have installed the plugin, you can enter the URLs in the user's profile for each of the popular Social Media sites in order to activate the social buttons that will appear on the author page and the author list page.</li>
+		</ul>
+
+		<img src="assets/images/author-info.png" style="margin: 20px 0;" alt="Author Info" />
+
+		<hr>
+
+		<h3 id="translation"><strong>Translation Files</strong> - <a href="#toc">top</a></h3>
+
+		<p>Zox News comes translation-ready with .po/.mo files ready for translation. These files are located in the <strong>/languages</strong> folder of the main theme folder. Once you have translated the files, simply save them as the name of your <a href="http://codex.wordpress.org/WordPress_in_Your_Language" target="_blank">language code</a> (i.e. es_ES.po and es_ES.mo for Spanish) and place them back in the /languages folder.</p>
+
+		<p>For more information on how to utilize these files to translate this theme into another language, <a href="https://translatepress.com/poedit-translate-wordpress/" target="_blank">click here</a> and start with Step 2.</p>
+
+		<hr>
+
+		<h3 id="woocommerce"><strong>WooCommerce</strong> - <a href="#toc">top</a></h3>
+
+		<p>Zox News is fully compatible with the popular e-commerce plugin WooCommerce, which will allow you to create a store within your site. You can download WooCommerce <a href="http://www.woothemes.com/woocommerce/" target="_blank">here</a>. Once you have downloaded the plugin, follow these instructions to install the plugin with Wordpress:</p>
+
+		<ol>
+			<li>Go to <strong>Plugins > Add New</strong></li>
+			<li>Select the <strong>Upload</strong> link at the top.</li>
+			<li>Click <strong>Choose File</strong> and select the <strong>woocommerce.zip</strong> file that you downloaded, then click <strong>Install Now</strong>.
+		</ol>
+
+		<p>Once the plugin is activated, WooCommerce will need to install several pages in order for it to function properly. Click <a href="http://docs.woothemes.com/documentation/plugins/woocommerce/" target="_blank">here</a> for more information about setting up WooCommerce.</p>
+
+		<hr>
+
+		<h3 id="bbpress"><strong>bbPress</strong> - <a href="#toc">top</a></h3>
+
+		<p>Zox News is fully compatible with the popular forum plugin bbPress, which will allow you to add a forum to your site. You can download bbPress <a href="http://bbpress.org/download/" target="_blank">here</a>. Once you have downloaded the plugin, follow these instructions to install the plugin with Wordpress:</p>
+
+		<ol>
+			<li>Go to <strong>Plugins > Add New</strong></li>
+			<li>Select the <strong>Upload</strong> link at the top.</li>
+			<li>Click <strong>Choose File</strong> and select the <strong>bbpress.xxx.zip</strong> file that you downloaded, then click <strong>Install Now</strong>.
+		</ol>
+
+		<p>Click <a href="http://codex.bbpress.org/" target="_blank">here</a> for more information about setting up bbPress.</p>
+
+		<hr>
+
+		<h3 id="css"><strong>CSS Files</strong> - <a href="#toc">top</a></h3>
+
+			<ul>
+				<li><strong>style.css</strong> - Main theme stylesheet</li>
+				<li><strong>iecss.css</strong> - Stylesheet with code for IE8 and earlier version browsers.</li>
+				<li><strong>media-queries.css</strong> - Stylesheet with the responsive CSS utilizing Media Queries.</li>
+				<li><strong>reset.css</strong> - The goal of a reset stylesheet is to reduce browser inconsistencies in things like default line heights, margins and font sizes of headings, and so on.</li>
+			</ul>
+
+		<hr>
+
+		<h3 id="js"><strong>Javascript Files</strong> - <a href="#toc">top</a></h3>
+
+			<ul>
+				<li><strong>/js/flexslider.js</strong> - Used for the Custom Gallery feature in posts.</li>
+				<li><strong>/js/jquery.infinitescroll.js</strong> - Used for the Infinite Scroll feature that continually loads posts without having to click to the next page (like Facebook or Buzzfeed).</li>
+				<li><strong>/js/mvpcustom.js</strong> - Used for various custom Javascript functions associated with the theme.</li>
+				<li><strong>/js/retina.js</strong> - Used for the retina-ready images feature.</li>
+				<li><strong>/js/scripts.js</strong> - Used for various custom javascript functions for use in the theme.</li>
+			</ul>
+
+		<hr>
+
+		<h3 id="support"><strong>Support</strong> - <a href="#toc">top</a></h3>
+		<p>If you have any questions related to setting up the theme that are not covered in this documentation or if you encounter any technical bugs, please submit a ticket at the <a href="httpa://mvpthemes.zendesk.com" target="_blank">MVP Themes Support Center</a>. Please note that this theme is sold "as-is" and any additional custom modifications you would like to make to the theme are your responsibility.</p>
+
+		<hr>
+
+		<h3 id="credits"><strong>Sources and Credits</strong> - <a href="#toc">top</a></h3>
+
+		<p>I have used the following images or other files as listed.</p>
+
+		<ul>
+			<li>Stock images in preview file from Shutterstock.com - <a href="http://www.shutterstock.com" target="_blank">http://www.shutterstock.com</a></li>
+			<li>Reviewer Plugin - <a href="https://codecanyon.net/item/reviewer-wordpress-plugin/5532349?_ga=2.209531600.313836706.1496350733-113332016.1487613230" target="_blank">https://codecanyon.net/item/reviewer-wordpress-plugin/5532349?_ga=2.209531600.313836706.1496350733-113332016.1487613230</a></li>
+			<li>Theia Post Slider - <a href="http://codecanyon.net/item/theia-post-slider-for-wordpress/2856832" target="_blank">http://codecanyon.net/item/theia-post-slider-for-wordpress/2856832</a></li>
+			<li>Theia Sticky Sidebar - <a href="http://codecanyon.net/item/theia-sticky-sidebar-for-wordpress/5150066" target="_blank">http://codecanyon.net/item/theia-sticky-sidebar-for-wordpress/5150066</a></li>
+		</ul>
+
+		<hr>
+
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+
+		<p class="append-bottom alt large"><strong>MVP Themes</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
